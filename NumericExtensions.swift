@@ -120,3 +120,13 @@ public extension Bool {
         return self
     }
 }
+
+extension CGFloat {
+    static var compatibleLeastNormalMagnitude:CGFloat {
+        if #available(iOS 11.0, *) {
+            return .leastNormalMagnitude
+        } else {
+            return 0
+        }
+    }
+}

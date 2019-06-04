@@ -21,3 +21,15 @@ public extension NSString {
         return self.range(of:searchString, options:mask).nilIfNotFound
     }
 }
+
+// MARK: - Notification Center
+extension NotificationCenter {
+    func post(name aName: NSNotification.Name) {
+        self.post(name: aName, object: nil)
+    }
+}
+
+// MARK: - JSONSerialization.WritingOptions
+public extension JSONSerialization.WritingOptions {
+    static var plain:JSONSerialization.WritingOptions { return JSONSerialization.WritingOptions(rawValue: 0) }
+}

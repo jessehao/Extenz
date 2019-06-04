@@ -17,6 +17,11 @@
 		F6DCAE9B22A6A541009B82CC /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DCAE9A22A6A541009B82CC /* DateExtensions.swift */; };
 		F6DCAE9D22A6A63D009B82CC /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DCAE9C22A6A63D009B82CC /* FoundationExtensions.swift */; };
 		F6DCAE9F22A6A680009B82CC /* NumericExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DCAE9E22A6A680009B82CC /* NumericExtensions.swift */; };
+		F6DCAEA122A6AB65009B82CC /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DCAEA022A6AB65009B82CC /* CollectionExtensions.swift */; };
+		F6DCAEA322A6AC3F009B82CC /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DCAEA222A6AC3F009B82CC /* UIViewExtensions.swift */; };
+		F6DCAEA522A6AC49009B82CC /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DCAEA422A6AC48009B82CC /* UIViewControllerExtensions.swift */; };
+		F6DCAEA722A6AE64009B82CC /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DCAEA622A6AE64009B82CC /* UIKitExtensions.swift */; };
+		F6DCAEA922A6AFF0009B82CC /* UncategoriedExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DCAEA822A6AFF0009B82CC /* UncategoriedExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +38,7 @@
 		0643326E05CDCC8A030D124C9ABCA6BC /* Pods-Extenz_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Extenz_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		11BFC94169721D91F53D0F12EB9F42B6 /* Pods-Extenz_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Extenz_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		188E8466247ABD8922E4BBCB8DD4D6BA /* Extenz-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Extenz-umbrella.h"; sourceTree = "<group>"; };
-		1D2458A2AC3E209365B61C0485BE51E5 /* Extenz.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Extenz.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1D2458A2AC3E209365B61C0485BE51E5 /* Extenz.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Extenz.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		282E56165C33D5FB4B522D83D90A7668 /* Pods-Extenz_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Extenz_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		47B197A7AD42D4D9C75FB82705C7B44E /* Extenz.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Extenz.modulemap; sourceTree = "<group>"; };
 		6450C6E75D7985D2A707FA1D3858D886 /* Pods-Extenz_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Extenz_Tests.modulemap"; sourceTree = "<group>"; };
@@ -56,6 +61,11 @@
 		F6DCAE9A22A6A541009B82CC /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 		F6DCAE9C22A6A63D009B82CC /* FoundationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
 		F6DCAE9E22A6A680009B82CC /* NumericExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericExtensions.swift; sourceTree = "<group>"; };
+		F6DCAEA022A6AB65009B82CC /* CollectionExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExtensions.swift; sourceTree = "<group>"; };
+		F6DCAEA222A6AC3F009B82CC /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		F6DCAEA422A6AC48009B82CC /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		F6DCAEA622A6AE64009B82CC /* UIKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		F6DCAEA822A6AFF0009B82CC /* UncategoriedExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UncategoriedExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,8 +154,13 @@
 			isa = PBXGroup;
 			children = (
 				F6DCAE9822A6A3DC009B82CC /* StringExtensions.swift */,
+				F6DCAEA822A6AFF0009B82CC /* UncategoriedExtensions.swift */,
 				F6DCAE9E22A6A680009B82CC /* NumericExtensions.swift */,
 				F6DCAE9A22A6A541009B82CC /* DateExtensions.swift */,
+				F6DCAEA022A6AB65009B82CC /* CollectionExtensions.swift */,
+				F6DCAEA222A6AC3F009B82CC /* UIViewExtensions.swift */,
+				F6DCAEA622A6AE64009B82CC /* UIKitExtensions.swift */,
+				F6DCAEA422A6AC48009B82CC /* UIViewControllerExtensions.swift */,
 				F6DCAE9C22A6A63D009B82CC /* FoundationExtensions.swift */,
 				0CF6B2E5E07489358B6B18BB1463B6DE /* Pod */,
 				F7F119F17EAAEB0112F4074937023246 /* Support Files */,
@@ -299,11 +314,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6DCAEA522A6AC49009B82CC /* UIViewControllerExtensions.swift in Sources */,
 				F6DCAE9D22A6A63D009B82CC /* FoundationExtensions.swift in Sources */,
+				F6DCAEA722A6AE64009B82CC /* UIKitExtensions.swift in Sources */,
+				F6DCAEA322A6AC3F009B82CC /* UIViewExtensions.swift in Sources */,
+				F6DCAEA122A6AB65009B82CC /* CollectionExtensions.swift in Sources */,
 				F6DCAE9F22A6A680009B82CC /* NumericExtensions.swift in Sources */,
 				F6DCAE9922A6A3DC009B82CC /* StringExtensions.swift in Sources */,
 				38A20BDEDEB79936A5E9D5D876F0659F /* Extenz-dummy.m in Sources */,
 				F6DCAE9B22A6A541009B82CC /* DateExtensions.swift in Sources */,
+				F6DCAEA922A6AFF0009B82CC /* UncategoriedExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +364,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Extenz/Extenz-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Extenz/Extenz-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Extenz/Extenz.modulemap";
 				PRODUCT_MODULE_NAME = Extenz;
@@ -377,7 +397,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Extenz/Extenz-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Extenz/Extenz-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Extenz/Extenz.modulemap";
 				PRODUCT_MODULE_NAME = Extenz;
