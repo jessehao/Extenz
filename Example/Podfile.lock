@@ -1,0 +1,16 @@
+PODS:
+  - Extenz (0.1.0)
+
+DEPENDENCIES:
+  - Extenz (from `../`)
+
+EXTERNAL SOURCES:
+  Extenz:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Extenz: fab772251d1ccca3282a20bbac50ca0043457171
+
+PODFILE CHECKSUM: 173e482310769eb6cf95028a286a7845abf9c078
+
+COCOAPODS: 1.7.1

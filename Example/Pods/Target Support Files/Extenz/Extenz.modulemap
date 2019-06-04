@@ -1,0 +1,6 @@
+framework module Extenz {
+  umbrella header "Extenz-umbrella.h"
+
+  export *
+  module * { export * }
+}
