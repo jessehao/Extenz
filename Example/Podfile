@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Extenz_Tests' do
+  pod 'Extenz', :path => '../'
+  
+  
+end
