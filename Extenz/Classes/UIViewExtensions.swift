@@ -98,11 +98,11 @@ public extension UILabel {
     }
     
     convenience init(withSystemFontSize size:CGFloat, weight: UIFont.Weight, color:UIColor, text:@autoclosure () -> String? = nil) {
-        self.init(withFont: .systemFont(ofSize: size, weight: weight), color: color, text: text)
+        self.init(withFont: .systemFont(ofSize: size, weight: weight), color: color, text: text())
     }
     
     convenience init(withPingFangSCFontSize size:CGFloat, weight: UIFont.Weight, color:UIColor, text:@autoclosure () -> String? = nil) {
-        self.init(withFont: .pingFangSCFont(ofSize: size, weight: weight), color: color, text: text)
+        self.init(withFont: .pingFangSCFont(ofSize: size, weight: weight), color: color, text: text())
     }
 }
 
