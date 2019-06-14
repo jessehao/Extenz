@@ -150,7 +150,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F67EB252D9755D931D862AA1D58C9794 /* Extenz */ = {
+		F6524CC422B3350700695D8D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				F6DCAE9822A6A3DC009B82CC /* StringExtensions.swift */,
@@ -162,6 +162,14 @@
 				F6DCAEA622A6AE64009B82CC /* UIKitExtensions.swift */,
 				F6DCAEA422A6AC48009B82CC /* UIViewControllerExtensions.swift */,
 				F6DCAE9C22A6A63D009B82CC /* FoundationExtensions.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F67EB252D9755D931D862AA1D58C9794 /* Extenz */ = {
+			isa = PBXGroup;
+			children = (
+				F6524CC422B3350700695D8D /* Classes */,
 				0CF6B2E5E07489358B6B18BB1463B6DE /* Pod */,
 				F7F119F17EAAEB0112F4074937023246 /* Support Files */,
 			);
